@@ -79,7 +79,7 @@ export default function PoolCard({ data }) {
               gap={0}
               onClick={() => setTab(1)}
               css={{
-                backgroundColor: tab === 0 ? "$backgroundLight" : "$background",
+                backgroundColor: tab === 1 ? "$backgroundLight" : "$background",
                 d: "flex",
                 jc: "center",
                 ai: "center",
@@ -93,7 +93,7 @@ export default function PoolCard({ data }) {
               gap={0}
               onClick={() => setTab(2)}
               css={{
-                backgroundColor: tab === 0 ? "$backgroundLight" : "$background",
+                backgroundColor: tab === 2 ? "$backgroundLight" : "$background",
                 d: "flex",
                 jc: "center",
                 ai: "center",
