@@ -1,7 +1,6 @@
 import { Error } from "@mui/icons-material";
 import {
   Button,
-  Card,
   Checkbox,
   Container,
   Grid,
@@ -13,7 +12,7 @@ import React, { useState } from "react";
 
 export default function PoolCard({ data }) {
   const [expanded, setExpanded] = useState(false);
-  const { isDark, type } = useTheme();
+  const { isDark } = useTheme();
   const [tab, setTab] = useState(0);
 
   return (
@@ -64,8 +63,9 @@ export default function PoolCard({ data }) {
           >
             <Container
               gap={0}
+              onClick={() => setTab(0)}
               css={{
-                backgroundColor: "$backgroundLight",
+                backgroundColor: tab === 0 ? "$backgroundLight" : "$background",
                 d: "flex",
                 jc: "center",
                 ai: "center",
@@ -77,8 +77,9 @@ export default function PoolCard({ data }) {
             </Container>
             <Container
               gap={0}
+              onClick={() => setTab(1)}
               css={{
-                backgroundColor: "$background",
+                backgroundColor: tab === 0 ? "$backgroundLight" : "$background",
                 d: "flex",
                 jc: "center",
                 ai: "center",
@@ -90,8 +91,9 @@ export default function PoolCard({ data }) {
             </Container>
             <Container
               gap={0}
+              onClick={() => setTab(2)}
               css={{
-                backgroundColor: "$background",
+                backgroundColor: tab === 0 ? "$backgroundLight" : "$background",
                 d: "flex",
                 jc: "center",
                 ai: "center",
