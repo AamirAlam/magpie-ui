@@ -51,11 +51,14 @@ function Header() {
       <div className="col-md-8">
         <div className="d-flex w-100">
           <div className="d-flex flex-row justify-content-start align-items-center title1-title2-wrapper">
-            <Text css={{ color: "$primaryColorText" }} className="main-heading">
+            <Text
+              css={{ color: "$primaryColorText", "@smMax": { fs: 10 } }}
+              className="main-heading"
+            >
               STAKE FUNDS
             </Text>
             <Text
-              css={{ color: "$primaryColorText" }}
+              css={{ color: "$primaryColorText", "@smMax": { fs: 10 } }}
               className="header-title2"
             >
               Change Protocol
@@ -83,7 +86,7 @@ function Header() {
             height: 35,
             borderRadius: 5,
             minWidth: 100,
-            marginTop: breakPoint === "sm" ? 10 : 0,
+            marginTop: breakPoint === "sm" ? 35 : 0,
           }}
         >
           Purchase Insurance
