@@ -167,18 +167,33 @@ export default function PoolCard({ data }) {
             className="d-flex justify-content-center align-items-center w-80"
           >
             <div className="d-flex">
-              <Text css={{ fs: 14, color: "$secondaryText" }}>
+              <Text
+                css={{ fs: 14, color: "$secondaryText", "@smMax": { fs: 12 } }}
+              >
                 Total WOM Concerted
               </Text>
-              <Text css={{ mr: 8, ml: 4 }} className="header-title3">
+              <Text
+                css={{ mr: 8, ml: 4, "@smMax": { fs: 12 } }}
+                className="header-title3"
+              >
                 $0.0 WOM
               </Text>
             </div>
             <div className="d-flex ml-4">
-              <Text css={{ mr: 4, ml: 8, fs: 14, color: "$secondaryText" }}>
+              <Text
+                css={{
+                  mr: 4,
+                  ml: 8,
+                  fs: 14,
+                  color: "$secondaryText",
+                  "@smMax": { fs: 12 },
+                }}
+              >
                 Total veWOM Accrued
               </Text>
-              <Text className="header-title3">$0.0 veWOM</Text>
+              <Text css={{ "@smMax": { fs: 12 } }} className="header-title3">
+                $0.0 veWOM
+              </Text>
             </div>
           </Container>
         </Container>
