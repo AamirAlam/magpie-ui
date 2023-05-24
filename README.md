@@ -1,7 +1,19 @@
 
-# Getting Started with Create React App
+# UI design using nextui library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Desktop screens
+<img width="1433" alt="Screenshot 2023-05-24 at 3 00 00 PM" src="https://github.com/AamirAlam/magpie-ui/assets/20106622/bfd4bf43-928b-44a5-a3f3-76b838dbdd1d">
+
+
+<img width="1421" alt="Screenshot 2023-05-24 at 3 00 13 PM" src="https://github.com/AamirAlam/magpie-ui/assets/20106622/0d4d2d41-4cb5-4b6f-be70-8f187a1f94df">
+
+
+
+## Mobile screens
+<img width="327" alt="Screenshot 2023-05-24 at 3 00 52 PM" src="https://github.com/AamirAlam/magpie-ui/assets/20106622/0d705273-9cb8-4afb-8cf3-b988f9f6c92b">
+
+<img width="329" alt="Screenshot 2023-05-24 at 3 00 42 PM" src="https://github.com/AamirAlam/magpie-ui/assets/20106622/70998b9f-74eb-49d2-a624-c4c410319b91">
+
 
 ## Available Scripts
 
@@ -25,42 +37,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
